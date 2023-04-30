@@ -50,19 +50,7 @@
     F. `true`. Converting 2 to boolean results in true, as any positive non-zero integer would result in true. Since a strict equality comparison between `true === true` is the same with both sides being boolean, we get true.
 
 15. Partially covered in question 14, but `==` is for equality, while `===` is for strict equality. The regular equality can convert between types to check if there is any equality across types, whereas the string equality comparison requires an equal match without any manipulation of the type.
-16. ```
-let statistics = {
-    redCars: 21,
-    blueCars: 45,
-    greenCars: 12,
-    raceCars: 5,
-    blackCars: 40,
-    rareCars: 2
-};
-
-for (let car in statistics) {
-    if (car.startsWith('r') || Boolean(statistics[car] % 2)) {
-        console.log(statistics[car]);
-    }
-}
-```
+16. [part2-question16.js](/expose/javascript/part2-question16.js)
+17. We get `[2,4,6]`. This is because the `modifyArray` function is called with a given array and a callback function, and out callback function, `doSomething`, goes through the array and does `num * 2` for each, resulting in the final array.
+18. [part2-question18.js](/expose/javascript/part2-question18.js)
+19. The output is `1`, `4`, `3`, `2`. This is because the calls in line 2 and 5 are instant, and then line 4 is after 0 milliseconds and line 3 is after 1000 milliseconds, or 1 second.
