@@ -9,3 +9,6 @@
 
 See the screenshot below for exact outputs!
 ![part1](/media/part1.png)
+
+*note that the write up had a typo and so in the screenshot it says fa22 instead of sp23.
+![note](/media/note.png)
