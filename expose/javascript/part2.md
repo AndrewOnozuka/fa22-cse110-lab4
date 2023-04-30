@@ -12,7 +12,30 @@
 10. Line 12 returns `3` because the variable `length` is set only once by `prices.length` and is not changed.
 11. The function still outputs the correct `[50, 100, 150]`. The variable scopes are properly defined and `const` variables are not redefined and the `let` is not called or necessary outside of its own relevant block. The function works for the same reasons previously explained in questions 4 and 8.
 12. A. `student.name`
+
     B. `student['Grad Year']`
+
     C. `student.greeting()`
+
     D. `student['Favorite Teacher'].name`
+
     E. `student.courseLoad[0]`
+
+13. A. `32`. Since `'3'` is a string, it concatenates the 2 along with it assuming that it is also a string.
+
+    B. `1`. Since `-` cannot be applied to strings, the `'3'` is treated like a number, and hence we get the outcome of 3 - 2.
+
+    C. `3`. Since we have the `+` operator, null becomes the integer 0. Since adding 0 does not change the value, we get 3.
+
+    D. `3null`. Similar to part A, since `'3'` is a string, it concatenates the null as a string also.
+
+    E. `4`. `true` is equivalent to integer 1, and since the `+` operator adds the integers, we get 1 + 3 which is 4.
+
+    F. `0`. The `+` operator assumes that we are dealing with integers, and since false maps to 0 and null is also 0, `0 + 0 = 0`.
+
+    G. `3undefined`. Similar to parts A and D, since `'3'` is a string, it concatenates undefined as a string also.
+
+    H. `NaN`. The `-` operator tells us we are dealing with integers, but since undefined converts to NaN, we get NaN.
+
+14. 
+
