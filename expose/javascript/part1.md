@@ -8,6 +8,7 @@
 6. Line 13 also returns an error for the same reasons, line 7 cannot change the previous `const` declaration of result.
 
 See the screenshot below for exact outputs!
+
 ![part1](/media/part1.png)
 
 *note that the write up had a typo and so in the screenshot it says fa22 instead of sp23.
