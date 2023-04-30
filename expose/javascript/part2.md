@@ -54,3 +54,7 @@
 17. We get `[2,4,6]`. This is because the `modifyArray` function is called with a given array and a callback function, and out callback function, `doSomething`, goes through the array and does `num * 2` for each, resulting in the final array.
 18. [part2-question18.js](/expose/javascript/part2-question18.js)
 19. The output is `1`, `4`, `3`, `2`. This is because the calls in line 2 and 5 are instant, and then line 4 is after 0 milliseconds and line 3 is after 1000 milliseconds, or 1 second.
+
+All of the terminal outputs can be seen here!
+[part2.1](/media/part2.1.png)
+[part2.2](/media/part2.2.png)
