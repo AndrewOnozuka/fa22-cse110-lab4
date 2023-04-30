@@ -37,5 +37,32 @@
 
     H. `NaN`. The `-` operator tells us we are dealing with integers, but since undefined converts to NaN, we get NaN.
 
-14. 
+14. A. `true`. The string `'2'` becomes integer 2, which is greater than 1, so the comparison is true.
 
+    B. `false`. Since both are compared as strings, it compares the first character of 2 and 1. Since 2 is greater than 1, we return false, although it is opposite in integer comparison.
+
+    C. `true`. Since we are comparing string and int, the string is treated like an int. `2 = 2`, so true.
+
+    D. `false`. The `===` is for strict equality. Although the previous comparison in part C returns true, the type differences between int and string means that this comparison is false.
+
+    E. `false`. `true` should map to 1, not 2, therefore this comparison is false.
+
+    F. `true`. Converting 2 to boolean results in true, as any positive non-zero integer would result in true. Since a strict equality comparison between `true === true` is the same with both sides being boolean, we get true.
+
+15. Partially covered in question 14, but `==` is for equality, while `===` is for strict equality. The regular equality can convert between types to check if there is any equality across types, whereas the string equality comparison requires an equal match without any manipulation of the type.
+16. ```
+let statistics = {
+    redCars: 21,
+    blueCars: 45,
+    greenCars: 12,
+    raceCars: 5,
+    blackCars: 40,
+    rareCars: 2
+};
+
+for (let car in statistics) {
+    if (car.startsWith('r') || Boolean(statistics[car] % 2)) {
+        console.log(statistics[car]);
+    }
+}
+```
