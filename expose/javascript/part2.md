@@ -56,5 +56,5 @@
 19. The output is `1`, `4`, `3`, `2`. This is because the calls in line 2 and 5 are instant, and then line 4 is after 0 milliseconds and line 3 is after 1000 milliseconds, or 1 second.
 
 All of the terminal outputs can be seen here!
-[part2.1](/media/part2.1.png)
-[part2.2](/media/part2.2.png)
+![part2.1](/media/part2.1.png)
+![part2.2](/media/part2.2.png)
